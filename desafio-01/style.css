@@ -77,6 +77,11 @@ main{
 
 .item .produto:hover{
     color: #5dff1d;
+
+}
+
+.item .produto .valor{
+    font-weight: bold;
 }
 
 .item .sobre{
