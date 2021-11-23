@@ -1,0 +1,22 @@
+
+
+body{
+    background-color: gray;
+}
+h1{
+     margin: 50px;
+    padding: 20px;
+    margin-inline: 30%;
+
+}
+.conteudo{
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    margin-inline: 25%;
+}
+ img{
+     margin-top: 30px;
+     
+ }
+ 
