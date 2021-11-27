@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
-*{
+
+*{   
     margin: 0;
     padding: 0;
-    font-weight: 400;
-}
+} 
 
 html{
     background: linear-gradient(#ffffff,#4873fd);
@@ -20,7 +20,7 @@ main{
 .alimentos{
     width: 65%;
     min-height: 450px;
-    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.3); /*https://developer.mozilla.org/en-US/docs/web/CSS/box-shadow*/
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.3); /*https://developer.mozilla.org/en-US/docs/web/CSS/box-shadow */
     background-color: #fff;
     display: flex;
     align-items: center;
@@ -57,16 +57,14 @@ main{
     background-position: top 8px right 0;
     background-size: 12px;
     border-bottom: 1px solid #ccc;
-    margin: 10px 0;
+    margin-left: 10px;
+    margin-right: 30px;
 }
 
 .alimentos .conteudo .items .item:last-child{
     border-bottom: none; 
 }
 
-.alimentos .items .item .produto id {
-    font-weight: 700;
-} 
 .item .produto{
     padding-bottom: 15px;
     font-size: 18px;
@@ -74,14 +72,13 @@ main{
     transition: 0s;
 }
 
-
 .item .produto:hover{
     color: #5dff1d;
 
 }
 
-.item .produto .valor{
-    font-weight: bold;
+.item .valor {
+    font-weight: 400;
 }
 
 .item .sobre{
@@ -101,13 +98,13 @@ main{
 
 .alimentos .items .item.ativo {
     background-image: url("imagens/setapcima.jpg");
-}
+} 
 
 @media(max-width: 1440px){
     .alimentos{
         flex-direction: column;
         width: 100%;
-    }
+    } 
 
     .alimentos .conteudo{
         width: 100%;
@@ -131,9 +128,7 @@ main{
 
 @media(max-width: 425px){
     .alimentos {
-        height: 540px;
-        
-    }
-    
-}
+        height: 540px;        
+    }    
+} 
 
