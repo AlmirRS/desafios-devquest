@@ -20,7 +20,7 @@ main{
 .alimentos{
     position: relative;
     width: 900px;
-    height: 500px;
+    height: 100%;
     margin: 30px;
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
@@ -41,8 +41,7 @@ main{
     margin: 10px;
 }
 .alimentos .ilustracao:hover{
-    transform: translateY(-50px);
-    width: 50%;
+    width: 52%;
     transition: 0.5s;
 }
 
